@@ -6,7 +6,7 @@ class Animals:
     height = 0
     voice = None
 
-    def __init__(self, weight, height, colour, voice):
+    def __init__(self, weight: object, height: object, colour: object, voice: object) -> object:
         self.weight = weight
         self.height = height
         self.colour = colour
